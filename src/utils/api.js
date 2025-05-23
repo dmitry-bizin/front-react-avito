@@ -232,7 +232,7 @@ class Api {
 }
 
 const api = new Api({
-    url: "http://localhost:8080",
+    url: "http://localhost:8888",
 });
 
 export default api;

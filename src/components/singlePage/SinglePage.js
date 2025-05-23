@@ -114,7 +114,7 @@ function SinglePage(props) {
                 </div>
               ) : (
                 <div
-                  style={{ backgroundImage: `url(${"http://localhost:8080"+ad.image})` }}
+                  style={{ backgroundImage: `url(${"http://localhost:8888"+ad.image})` }}
                   className="cardInformation__img"
                 >
                   {props.userInfo.username === ad.email || props.userInfo.role === 'ADMIN' ? (

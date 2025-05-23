@@ -4,7 +4,7 @@ function Ad({id, image, title, price, description}) {
   return (
     <li className="ad" key={id}>
       {image ? (
-        <img src={`http://localhost:8080`+image} className="ad-img" alt="product img" />
+        <img src={`http://localhost:8888`+image} className="ad-img" alt="product img" />
       ) : image === null ? (
         <div className="ad-img_null" />
       ) : (

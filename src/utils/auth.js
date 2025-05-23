@@ -32,7 +32,7 @@ class Auth {
 }
 
 const auth = new Auth({
-  url: "http://localhost:8080",
+  url: "http://localhost:8888",
 
   headers: {
     Accept: "application/json",
